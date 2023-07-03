@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align:center
+        }
+        table{
+            width: auto;
+            align-content: center;
+        }
+        
+    
+        .line{
+            margin:25px;
+            border: 2px solid;
+        }
+        
+   
+        #ass1table{
+            width: 800px;
+            
+        }
+        #ass2table{
+            width: 800px;
+            align-content: center;
+            background-color: rgb(139, 246, 139);}
+            td{
+      text-align: center ;
+      
+      
+    }
+   
+   
+    #w{
+      margin-bottom: 0px;
+      font-style: bold;
+    }
+    #ass3table{
+        width: 770px;
+        background-color: cornsilk;
+    }
+
+    #ass4table{
+    cellpadding:2%;
+    width: 65%;
+    }
+    
+    </style>
+</head>
+<body> 
+    <div id="center">
+   <h1 align="center" >Nested Table</h1>
+    <table border="2" id="ass1table" cellpadding="5" align="center" >
+        <tr>
+            <th>Header column 1</th>
+            <th>Header column 2</th>
+            <th>Header column 3</th>
+            <th>Header column 4</th>
+        </tr>
+        <tr>
+            <td>Row 2 - Item 1</td>
+            <td>Row 2 - Item 2</td>
+            <td rowspan="2"> Row 2 : Nested table 1 <table border="1" cellpadding="7"><tr>
+                <th>Row 1 Heder</th>
+                <th>Row 1 Heder</th>
+                <th>Row 1 Heder</th>
+                         </tr>
+                         <tr>
+                            <td>Row 2 Heder</td>
+                            <td>item</td>
+                            <td>item</td>
+                            
+                                     </tr></table></td>
+            <td>Row 2 - Item 4 <br>A Second line</td>
+        </tr>
+        
+            <td>Row 3 : Nested Table 2 <table border="1" cellpadding="7"><tr>
+                <th>Row 1 Heder</th>
+                <td>item</td>
+              
+                         </tr>
+                         <tr>
+                            <th>Row 2 Heder</th>
+                            <td>item</td>
+                            
+                                     </tr></table></td>
+            
+            <td>Row 3 - Item 2</td>
+            <td rowspan="2">Row 3 - Item 3</td>
+           
+        </tr>
+        <tr>
+            <td>Row 4 - Item 1</td>
+            <td>Row 4 - Item 2</td>
+            <td>Row 4 - Item 3</td>
+            
+        </tr>
+        <tr>
+            <td colspan="4">Row 5 - Item 1</td>
+            
+        </tr>
+        
+    </table></div>
+    <hr class="line">
+
+            <!-- 2nd Assigment start here -->
+
+    <div id="ass2">
+        <h2 align="center">MarkSheet Of 2077</h2>
+        <table  border="3" id="ass2table" cellspacing="0px" align="center">
+            <tr>
+                <th rowspan="4">S.No</th>
+                <th rowspan="4">Name</th>
+                <th colspan="6">Subject</th>
+                <th rowspan="4" >Total</th>
+               
+                
+                
+            </tr>
+            <tr>
+              
+                <th colspan="2">Scince</th>
+                
+                <th colspan="2">Social</th>
+                
+                <th colspan="2">Computer</th>
+              
+                
+                
+                
+               
+            </tr>
+            <tr>
+               
+                
+                <th colspan="6" align="center" >Marks</th>
+                
+                </tr>
+            <tr>
+                
+                <th>Internal</th>
+                <th>final</th>
+                <th>Internal</th>
+                <th>final</th>
+                <th>Internal</th>
+                <th>final</th>
+              
+                
+                </tr>
+                <td>1.</td>
+                <td>Bikash</td>
+                <td>10</td>
+                <td>12</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>50</td>
+            </tr>
+            <tr><td>2.</td>
+                <td>Bikash</td>
+                <td>10</td>
+                <td>12</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>50</td></tr>
+            <tr><td>3.</td>
+                <td>Avinash</td>
+                <td>10</td>
+                <td>12</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>50</td></tr>
+            <tr><td>4.</td>
+                <td>Ram </td>
+                <td>10</td>
+                <td>12</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>50</td></tr>
+            <tr><td>5.</td>
+                <td>Bikash</td>
+                <td>10</td>
+                <td>12</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>43</td>
+                <td>50</td></tr>
+            <tr>
+                <th colspan="9" align="center">Total</th>
+                </tr>
+        </table>
+        </table></div>
+        <hr class="line">
+        
+        <!-- 3rd Assigment start -->
+        <table border="1" id="ass3table"
+         cellpadding="1px" align="center">
+            <tr>
+              
+              <td rowspan="3">Day</td>
+              <td colspan="3">Seminar</td>
+            </tr>
+                <tr>
+            
+                  <td colspan="2"> schedule</td>
+            <td rowspan="2"> Topic</td>
+                  
+                </tr>
+                    <tr>
+                 
+                      <td>begin</td>
+                      <td>End</td>
+                      
+                    </tr>
+                        <tr>
+                    
+                          <td rowspan="2">monday</td>
+                          <td rowspan="2">8:00 am</td>
+                          <td rowspan="2">5 :00 am</td>
+                          <td> Introduction Of XML</td>
+                        </tr>
+                            <tr>
+                        
+                              <td>Validaty : DTD and Relax NG </td>
+                              
+                            </tr>
+                                <tr>
+                            
+                                  <td rowspan="3">Tuesday</td>
+                                  <td>8:00 a.m</td>
+                                  <td>11:00 a.m</td>
+                                  <td > <br>X Path <br>
+                                  
+                                </tr>
+                                     <td> 1:00 a.m</td>
+                                      <td >2:00 p.m</td>
+                                      <td rowspan="3"> <br> <br> XSL Transformation
+                              <br><br>  <hr >
+                       <hr id="w" >
+                       <br>
+                         XSL Formatting Object <br><br>
+                              </td>
+                     </tr>
+                                        <tr>   
+                                          <td>2:00 p.m</td>
+                                          <td>5:00 pm</td>
+                                          
+                                        </tr>
+                                            <tr>
+                                        
+                                              <td> Wednesday</td>
+                                              <td>8 :00 a.m</td>
+                                              <td>12:00 p.m</td>
+                                      
+                      </tr>
+          </table>
+          <hr class="line">
+            <!-- Assigment 4 start -->
+            <table border="5"  id="ass4table" align="center">
+                <tr>
+                  <th colspan="6" align="center">Athletic Day Time Tablee</th>
+                 
+                </tr>
+                <tr >
+                  
+                          <th cellpedding:0%> Area</th>
+                           <th cellpedding:0%> 10 am - 11 am</th>
+                            <th cellpedding:0%>11 am - 12 pm </th>
+                             <th cellpedding:0%> 12 pm - 1 pm</th>
+                              <th cellpedding:0%> 1 pm - 2 pm</th>
+                               <th cellpedding:0%> 2 pm - 3 pm</th>
+                          
+                  </tr>
+                  <tr>
+                          <th rowspan="2">Track</th>
+                          <td>400m</td>
+                          <td>200m</td>
+                          <td rowspan="3" align="center">Lunch</td>
+                          <td>800m</td>
+                          <td>100m</td>
+                  </tr>
+                  <tr>
+                          
+                          <td>Hurdles</td>
+                          <td>1500m</td>
+                         
+                          <td>free</td>
+                          <td>80m</td>
+                          
+                  </tr>
+                  <tr>
+                          <th>Feild</th>
+                          <td>Discus</td>
+                          <td>Javilen</td>
+                          
+                          <td>Shot Put</td>
+                          <td>Hammer Throw</td>
+                  </tr>
+                                </table>
+              <hr class="line"> 
+              <h1>Waqas Ahmed <br> Web & App 116658</h1>
+              
+</body>
+</html>
